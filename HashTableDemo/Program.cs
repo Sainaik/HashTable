@@ -18,6 +18,10 @@ namespace HashTableDemo
             string hash5 = hash.get("5");
 
             Console.WriteLine(hash5);
+
+            hash.Remove("5");
+
+           
         }
     }
 }
